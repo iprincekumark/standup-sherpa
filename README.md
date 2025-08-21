@@ -36,3 +36,21 @@ Collects updates via Slack, fetches GitHub PRs, auto-schedules blockers in Googl
 4. Access app at:
    ```bash
    http://localhost:8080
+
+--- 
+
+## 🌐 Auth & Integrations
+
+- Auth handled by Descope Outbound Apps → no hardcoded tokens.
+- Connect Slack, GitHub, and Google Calendar via hosted Descope Flow.
+
+---
+
+## 📌 Features (MVP)
+
+- /standup Slack command to collect daily updates
+- Auto-fetch open PRs from GitHub
+- Auto-create calendar events for blockers
+- Post summary back to Slack
+
+---
